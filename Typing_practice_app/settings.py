@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
-import django_heroku
+# import django_heroku
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -89,15 +89,15 @@ DATABASES = {
         # 'HOST': 'localhost',
 
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME' : 'eyjzeokyffwycd',
-        'USER' : 'd38s271etd3k14',
-        'PASSWORD' : '76b0b48bd4c52ae6698e23b96b5ade4278b7bcb5e81931eb170f834442f918f9',
-        'HOST' : 'ec2-3-216-181-219.compute-1.amazonaws.com',
-        'PORT' : '5432'
+        'USER' : 'kgmreublfpcirn',
+        'PASSWORD' : '07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9',
+        'HOST' : 'ec2-54-156-73-147.compute-1.amazonaws.com',
+        'PORT' : '5432',
+        'NAME' : 'dbl8oqo0im7mrq',
     }
 }
 # postgres://eyjzeokyffwycd:76b0b48bd4c52ae6698e23b96b5ade4278b7bcb5e81931eb170f834442f918f9@ec2-3-216-181-219.compute-1.amazonaws.com:5432/d38s271etd3k14
-
+# postgres://kgmreublfpcirn:07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9@ec2-54-156-73-147.compute-1.amazonaws.com:5432/dbl8oqo0im7mrq
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -152,4 +152,4 @@ STATICFILES_DIRS = [
 ]
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
