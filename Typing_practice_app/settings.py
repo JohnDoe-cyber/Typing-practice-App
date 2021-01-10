@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'Typing_practice_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
 
 
         # 'ENGINE': 'django.db.backends.postgresql',
@@ -88,12 +88,13 @@ DATABASES = {
         # 'PASSWORD': 'ManishPort',
         # 'HOST': 'localhost',
 
-        'ENGINE': 'django.db.backends.postgresql',
-        'USER' : 'kgmreublfpcirn',
-        'PASSWORD' : '07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9',
-        'HOST' : 'ec2-54-156-73-147.compute-1.amazonaws.com',
-        'PORT' : '5432',
-        'NAME' : 'dbl8oqo0im7mrq',
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME' : 'dbl8oqo0im7mrq',
+        # 'USER' : 'kgmreublfpcirn',
+        # 'PASSWORD' : '07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9',
+        # 'HOST' : 'ec2-54-156-73-147.compute-1.amazonaws.com',
+        # 'PORT' : '5432',
+        
     }
 }
 # postgres://eyjzeokyffwycd:76b0b48bd4c52ae6698e23b96b5ade4278b7bcb5e81931eb170f834442f918f9@ec2-3-216-181-219.compute-1.amazonaws.com:5432/d38s271etd3k14
