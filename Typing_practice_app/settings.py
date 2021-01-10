@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '@4n_@6y&f8d#9y7ueai(d&&+fw79yygj8i)9u9e#$$l72wegp-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['typing-practice-app.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['typing-practice-app.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -73,6 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Typing_practice_app.wsgi.application'
 
 
+
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -88,17 +90,19 @@ DATABASES = {
         # 'PASSWORD': 'ManishPort',
         # 'HOST': 'localhost',
 
-        # 'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME' : 'dbl8oqo0im7mrq',
-        # 'USER' : 'kgmreublfpcirn',
-        # 'PASSWORD' : '07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9',
-        # 'HOST' : 'ec2-54-156-73-147.compute-1.amazonaws.com',
-        # 'PORT' : '5432',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME' : 'dbl8oqo0im7mrq',
+        'USER' : 'kgmreublfpcirn',
+        'PASSWORD' : '07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9',
+        'HOST' : 'ec2-54-156-73-147.compute-1.amazonaws.com',
+        'PORT' : '5432',
         
     }
 }
 # postgres://eyjzeokyffwycd:76b0b48bd4c52ae6698e23b96b5ade4278b7bcb5e81931eb170f834442f918f9@ec2-3-216-181-219.compute-1.amazonaws.com:5432/d38s271etd3k14
 # postgres://kgmreublfpcirn:07d2b4157aada18fbf867d1d0d52883df0b452422b224e7c4e58fe9b5e4875d9@ec2-54-156-73-147.compute-1.amazonaws.com:5432/dbl8oqo0im7mrq
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators

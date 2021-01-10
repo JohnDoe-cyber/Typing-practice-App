@@ -227,7 +227,7 @@ function speed(words, sec, milli) {
 // Function to put the Paragraph in DOM
 
 function Paragraph() {
-    let para = "You only live once, but living it happily is enough for one life.";
+    // let para = "You only live once, but living it happily is enough for one life.";
 
     let letters = para.split("");
     let words = para.split(" ");
