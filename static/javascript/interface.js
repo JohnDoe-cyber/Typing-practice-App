@@ -45,7 +45,7 @@ about.addEventListener("click", () => {
             }, 500);
         }
     
-    }, 50);
+    }, 25);
     
 });
 

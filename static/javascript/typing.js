@@ -262,6 +262,8 @@ function Paragraph() {
 
 
     // The para became stringist
+    stringist = stringist.slice(0,-1)
+    console.log(stringist)
 
     let letters = stringist.split("");
     
