@@ -13,7 +13,6 @@ nav{
 ul{display: flex;
     list-style: none;
     align-items: center;
-    
 }
 
 #sitename{
@@ -25,7 +24,7 @@ ul{display: flex;
 
 .navbtn{
     
-    width: 80px;
+    width: 90px;
     text-align: center;
     cursor: pointer;
     padding: 1px 8px;
@@ -35,6 +34,7 @@ ul{display: flex;
     border: 2px rgb(209, 199, 245) solid;
     border-radius: 11px;
     background-color: rgb(181 183 212);
+    white-space: nowrap;
 }
 
 .navbtn:hover{
@@ -163,15 +163,13 @@ span > span{
     font-size: 1.05rem;
     margin: 2% 1%;
     margin-left: 5%;
-
-    
     padding: 2px 8px;
     border: rgb(155, 192, 223) solid 2px;
     border-radius: 8px;
     background-color:rgb(155, 192, 223);
     transition: 0.1;
     outline: none;
-    
+    white-space: nowrap;                         /* For it to be in one line */
 }
 
 .utilitybtn:hover{
